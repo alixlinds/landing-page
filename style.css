@@ -161,6 +161,7 @@ a {
     border: 2px solid #F9FAF8;
     border-radius: 8px;
     color: #F9FAF8;
+    min-width: 50px;
     width: 100px;
     height: 30px;
 }
@@ -172,4 +173,13 @@ a {
 
 .box-text {
     font-weight: lighter;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
 }
