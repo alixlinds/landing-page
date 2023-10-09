@@ -125,8 +125,6 @@ a {
     font-style: italic;
     font-weight: 100;
     padding: 0px; 
-    display: flex;   
-    flex-shrink: 0;
 }
 
 .signature {
@@ -136,4 +134,42 @@ a {
     display: flex;
     justify-content: flex-end;
     padding-right: 75px;
+}
+
+.sign-up-box {
+    padding: 100px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.sign-up-button {
+    padding: 0px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+}
+
+.box-header {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.box-text {
+    font-weight: lighter;
 }
